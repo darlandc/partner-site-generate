@@ -114,3 +114,5 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+flush_rewrite_rules( false );
